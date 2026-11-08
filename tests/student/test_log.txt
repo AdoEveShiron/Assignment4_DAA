@@ -1,0 +1,18 @@
+PASS lcs small               312 cases,    0 wrong, java batch 0.03s
+PASS merge small             208 cases,    0 wrong, java batch 0.04s
+PASS tree small              259 cases,    0 wrong, java batch 0.04s
+PASS naive small             315 cases,    0 wrong, java batch 0.03s
+PASS kmp small               315 cases,    0 wrong, java batch 0.03s
+PASS rk small                315 cases,    0 wrong, java batch 0.03s
+PASS rk collisions           381 cases,    0 wrong, java batch 0.04s
+PASS suffix small            313 cases,    0 wrong, java batch 0.04s
+PASS aho small               311 cases,    0 wrong, java batch 0.04s
+PASS mixed + repeated        420 cases,    0 wrong, java batch 0.04s
+PASS lcs 1000x1000             2 cases,    0 wrong, java batch 0.04s
+PASS merge n=200               3 cases,    0 wrong, java batch 0.04s
+PASS tree n=100000             4 cases,    0 wrong, java batch 0.19s
+PASS search limits             9 cases,    0 wrong, java batch 0.13s
+PASS suffix n=50000            4 cases,    0 wrong, java batch 0.14s
+PASS aho dense/limits          3 cases,    0 wrong, java batch 0.14s
+
+TOTAL: 3174 cases, 0 failed
